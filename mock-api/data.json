@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "email": "azam@gmail.com",
+      "username": "azam",
+      "password": "azam123",
+      "id": 1
+    },
+    {
+      "email": "fiaz@gmail.com",
+      "username": "fiaz",
+      "password": "fiaz123",
+      "id": 2
+    }
+  ],
+  "posts": [
+    {
+      "username": "azam",
+      "text": "this is initial post",
+      "imageURL": "",
+      "likes": [],
+      "comments": [],
+      "id": 1
+    },
+    {
+      "username": "azam",
+      "text": "this is initial post",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/sbook-d6013.appspot.com/o/images%2F1659549342477?alt=media&token=d82bdaf8-7d73-43dc-bcf7-a6027743e807",
+      "likes": [
+        2
+      ],
+      "comments": [],
+      "id": 2
+    },
+    {
+      "username": "azam",
+      "text": "another post",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/sbook-d6013.appspot.com/o/images%2F1659549387748?alt=media&token=9740804c-19cb-40dc-88ce-92b2001b13ec",
+      "likes": [
+        2,
+        1
+      ],
+      "comments": [
+        {
+          "username": "fiaz",
+          "comment": "fantastic"
+        }
+      ],
+      "id": 3
+    }
+  ]
+}
